@@ -1,0 +1,52 @@
+/* font added */
+body{
+    font-family: fira sans;
+    color: #f5f5f5;
+}
+/* color section */
+.primary-color{
+    color: rgb(14, 14, 14);
+}
+.paragraph-color{
+    color: rgba(14, 14, 14, 0.7);
+}
+.btn-color{
+    color: rgb(0, 106, 80);
+}
+.btn-text{
+    color: white;
+}
+.card-div{
+    color: rgb(198, 228, 214);
+}
+/* nav section */
+nav{
+   margin: 0 200px;
+}
+nav ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+/* padding: 14px 160px 14px 160px; */
+list-style: none;
+}
+nav ul li a h3{
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+text-align: left;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul button{
+padding: 15px 30px 15px 30px;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+font-weight: 600;
+font-size: 16px;
+background-color: white;
+}
+/* nav finish */
