@@ -1,8 +1,8 @@
 /* font added */
 body {
   font-family: fira sans;
-  color: #f5f5f5;
   margin: 0px 200px 0px 200px;
+  background-color: rgb(245, 245, 245);
 }
 /* color section */
 .primary-color {
@@ -48,6 +48,11 @@ nav ul button {
   font-size: 16px;
   background-color: white;
 }
+nav ul button:hover {
+  background-color: rgb(0, 106, 80);
+  color: white;
+}
+
 /* hero section */
 .hero {
   display: flex;
@@ -99,6 +104,10 @@ nav ul button {
   font-size: 15px;
   font-weight: 500;
   margin-top: -38px;
+}
+.hero-btn:hover {
+  background-color: white;
+  color: rgb(0, 106, 80);
 }
 /* Pillars of Bangladesh 2.0 section */
 .container {
@@ -282,6 +291,10 @@ nav ul button {
   border-radius: 8px;
   margin: 0px 26px;
 }
+.card-1 button:hover {
+  background-color: white;
+  color: rgb(84, 144, 245);
+}
 .card-2 h3 {
   text-align: left;
   padding: 2px 0px 0px 30px;
@@ -301,7 +314,7 @@ nav ul button {
 }
 .card-2 button {
   padding: 11px 20px 11px 20px;
-  background-color: rgb(84, 144, 245);
+  background-color: rgb(9, 161, 92);
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -310,6 +323,10 @@ nav ul button {
   border: none;
   border-radius: 8px;
   margin: 0px 28px;
+}
+.card-2 button:hover {
+  background-color: white;
+  color: rgb(9, 161, 92);
 }
 .card-3 h3 {
   text-align: left;
@@ -330,7 +347,7 @@ nav ul button {
 }
 .card-3 button {
   padding: 11px 20px 11px 20px;
-  background-color: rgb(84, 144, 245);
+  background-color: rgb(255, 194, 57);
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -339,6 +356,10 @@ nav ul button {
   border: none;
   border-radius: 8px;
   margin: 0px 30px;
+}
+.card-3 button:hover {
+  background-color: white;
+  color: rgb(255, 194, 57);
 }
 /* quotes section */
 .quotes {
@@ -351,12 +372,11 @@ nav ul button {
   border-radius: 24px;
   margin-top: 60px;
   background-color: white;
- position:relative;
- background-image: url('../assets/quote-bg.png');
- background-repeat: no-repeat;
+  position: relative;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
 }
 #quota {
-
   width: 1232px;
   height: 96px;
   padding: 55px 0px 0px 40px;
@@ -367,7 +387,6 @@ nav ul button {
   text-align: left;
 }
 #pm {
-  
   color: rgba(14, 14, 14, 0.8);
   font-size: 18px;
   font-weight: 400;
@@ -381,13 +400,26 @@ nav ul button {
   line-height: 24px;
   text-align: left;
 }
-/* opnion section */
-.opinion{
-    margin-top: 90px;
+/* news section */
+.news-container {
+  margin-top: 80px;
 }
-.opinion-title{
-    font-size: 43px;
-    text-align: left;
-    font-weight: 700;
-    line-height: 48px;
+.news h2 {
+  font-size: 43px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 48px;
+}
+.news p {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.news-blog{
+    width: 100%;
+height: 402px;
+background-color: white;
+border-radius:24px ;
 }
