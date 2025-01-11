@@ -11,6 +11,9 @@ body {
 .title-color {
   color: rgba(14, 14, 14, 0.7);
 }
+.card-description-color {
+  color: rgba(14, 14, 14, 0.7);
+}
 .btn-color {
   color: rgb(0, 106, 80);
 }
@@ -80,6 +83,7 @@ nav ul button {
   font-size: 63px;
   font-weight: 700;
   line-height: 68px;
+  position: relative;
 }
 
 .hero .right {
@@ -95,4 +99,244 @@ nav ul button {
   font-size: 15px;
   font-weight: 500;
   margin-top: -38px;
+}
+/* Pillars of Bangladesh 2.0 section */
+.container {
+  margin-top: 80px;
+}
+.container h2 {
+  font-size: 43px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 48px;
+}
+.pillars-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.pillar-card-1 {
+  width: 302px;
+  height: 244px;
+  background-color: white;
+  border-radius: 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.pillar-card-2 {
+  width: 302px;
+  height: 244px;
+  background-color: white;
+  border-radius: 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.pillar-card-3 {
+  width: 302px;
+  height: 244px;
+  background-color: white;
+  border-radius: 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.pillar-card-4 {
+  width: 302px;
+  height: 244px;
+  background-color: white;
+  border-radius: 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.pillar-card-1 h3 {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pillar-card-1 p {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.pillar-card-1 img {
+  padding: 20px 0px 0px 26px;
+}
+.pillar-card-2 h3 {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pillar-card-2 p {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.pillar-card-2 img {
+  padding: 20px 0px 0px 26px;
+}
+.pillar-card-3 h3 {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pillar-card-3 p {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.pillar-card-3 img {
+  padding: 20px 0px 0px 26px;
+}
+.pillar-card-4 h3 {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pillar-card-4 p {
+  text-align: left;
+  padding: 2px 0px 0px 23px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.pillar-card-4 img {
+  padding: 20px 0px 0px 26px;
+}
+/* The Vision of Future card section */
+.container-1 {
+  margin-top: 80px;
+}
+.container-1 h2 {
+  font-size: 43px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 48px;
+}
+.container-1 p {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.card-1 {
+  width: 410.67px;
+  height: 325px;
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 18px;
+}
+.card-2 {
+  width: 410.67px;
+  height: 325px;
+  background-color: rgb(198, 228, 214);
+  border-radius: 18px;
+}
+.card-3 {
+  width: 410.67px;
+  height: 325px;
+  background-color: rgb(247, 235, 207);
+  border-radius: 18px;
+}
+.card-1 h3 {
+  text-align: left;
+  padding: 2px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.card-1 p {
+  text-align: left;
+  padding: 2px 0px 0px 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-1 img {
+  padding: 32px 0px 0px 30px;
+}
+.card-1 button {
+  padding: 11px 20px 11px 20px;
+  background-color: rgb(84, 144, 245);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+  border: none;
+  border-radius: 8px;
+  margin: 0px 26px;
+}
+.card-2 h3 {
+  text-align: left;
+  padding: 2px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.card-2 p {
+  text-align: left;
+  padding: 2px 0px 0px 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-2 img {
+  padding: 32px 0px 0px 30px;
+}
+.card-2 button {
+  padding: 11px 20px 11px 20px;
+  background-color: rgb(84, 144, 245);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+  border: none;
+  border-radius: 8px;
+  margin: 0px 28px;
+}
+.card-3 h3 {
+  text-align: left;
+  padding: 2px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.card-3 p {
+  text-align: left;
+  padding: 2px 0px 0px 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-3 img {
+  padding: 32px 0px 0px 30px;
+}
+.card-3 button {
+  padding: 11px 20px 11px 20px;
+  background-color: rgb(84, 144, 245);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+  border: none;
+  border-radius: 8px;
+  margin: 0px 30px;
 }
