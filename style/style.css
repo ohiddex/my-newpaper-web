@@ -375,7 +375,7 @@ nav ul button:hover {
   background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
   background-position-x: 40px;
-  background-position-y: 37px;
+  background-position-y: 38px;
 }
 #quota {
   width: 1232px;
@@ -670,16 +670,20 @@ nav ul button:hover {
   align-items: center;
 }
 .input-amount {
-  border: none;
+  border: 1px solid white;
   justify-content: center;
   align-items: center;
-  width: 187px;
-  height: 24px;
+  width: 300px;
+  height: 40px;
   margin: 492px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
 }
+input.input-amount{
+  border: 1px solid white;
+}
+
 .btn-done-now {
   margin: -18px 0px;
   padding: 17px 34px 17px 34px;
@@ -762,4 +766,47 @@ nav ul button:hover {
   opacity: 70%;
   font-size: 16px;
   font-weight: regular;
+}
+/* last section for footer */
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+.icons > a > img {
+  height: 24px;
+  width: 24px;
+  padding: 0px 0px 0px 0px;
+}
+hr {
+  width: 1122px;
+  border: 1px solid #1d1e1e36;
+}
+.title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 32px;
+  margin-top: 50px;
 }
